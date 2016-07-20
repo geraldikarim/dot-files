@@ -100,6 +100,9 @@ alias install='sudo apt-get install -y'
 alias remove='sudo apt-get remove -y'
 alias purge='sudo apt-get purge -y'
 
+# Git aliases
+alias gka='gitk --all --date-order &'
+
 # Laravel aliases
 alias hom='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
 alias art='php artisan'
