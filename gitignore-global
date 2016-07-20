@@ -1,0 +1,35 @@
+# Compiled
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Databases
+*.sql
+*.sqlite
+
+# Logs 
+*.log
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Temporaries
+*.swp
+*.swo
+*~
+
+# OS-generated
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db

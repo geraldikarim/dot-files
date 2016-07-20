@@ -1,0 +1,14 @@
+[user]
+    email = geraldi.karim@gmail.com
+    name = Geraldi Karim
+
+[color]
+    ui = auto
+
+[core]
+    editor = vim
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    excludesfile = ~/.global-gitignore
+
+[merge]
+    ff = false
