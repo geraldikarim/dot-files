@@ -10,7 +10,7 @@
 *.sql
 *.sqlite
 
-# Logs 
+# Logs
 *.log
 
 # Packages
