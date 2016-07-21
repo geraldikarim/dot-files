@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-ln -sf $(pwd)/zshrc ~/.zshrc
+dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-ln -sf $(pwd)/gemrc ~/.gemrc
+ln -sf $dir/zshrc ~/.zshrc
 
-ln -sf $(pwd)/gitconfig ~/.gitconfig
+ln -sf $dir/gemrc ~/.gemrc
 
-ln -sf $(pwd)/gitignore-global ~/.gitignore-global
+ln -sf $dir/gitconfig ~/.gitconfig
+
+ln -sf $dir/gitignore-global ~/.gitignore-global
