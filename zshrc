@@ -52,7 +52,7 @@ plugins=(git vagrant)
 
 # User configuration
 
-PATH="~/.config/composer/vendor/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
