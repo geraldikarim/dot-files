@@ -5,6 +5,9 @@
 [color]
     ui = auto
 
+[diff]
+    wordRegex = "\\\\[a-zA-Z]+|[{}]|\\\\.|[[:punct:]]|[^\\{}[:space:][:punct:]]+|[^[:space:]]"
+
 [core]
     editor = vim
     whitespace = fix,trailing-space,cr-at-eol
