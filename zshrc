@@ -100,8 +100,8 @@ alias zshsource='source ~/.zshrc'
 
 # Linux aliases
 alias update='sudo apt-get update'
-alias upgrade='sudo apt-get -y upgrade && sudo apt-get -y autoremove'
-alias upgrade!='sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove'
+alias upgrade!='sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove && sudo apt-get -y autoclean'
+alias upgrade='sudo apt-get -y upgrade && sudo apt-get -y autoremove && sudo apt-get -y autoclean'
 alias install='sudo apt-get -y install'
 alias remove='sudo apt-get -y remove'
 alias purge='sudo apt-get -y purge'
