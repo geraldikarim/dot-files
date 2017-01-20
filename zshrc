@@ -99,13 +99,13 @@ alias zshconfig='vim ~/.zshrc'
 alias zshsource='source ~/.zshrc'
 
 # Linux aliases
-alias update='sudo apt-get update'
-alias upgrade!='sudo apt-get -y dist-upgrade'
-alias upgrade='sudo apt-get -y upgrade'
 alias cleanup='sudo apt-get -y autoremove && sudo apt-get -y autoclean'
+alias upgrade!='sudo apt-get dist-upgrade'
 alias install='sudo apt-get -y install'
+alias upgrade='sudo apt-get -y upgrade'
 alias remove='sudo apt-get -y remove'
 alias purge='sudo apt-get -y purge'
+alias update='sudo apt-get update'
 
 # Git aliases
 alias gka='gitk --all --date-order &'
