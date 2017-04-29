@@ -99,7 +99,7 @@ alias zshconfig='vim ~/.zshrc'
 alias zshsource='source ~/.zshrc'
 
 # Linux aliases
-alias cleanup='sudo apt-get -y autoremove && sudo apt-get -y autoclean'
+alias cleanup='sudo apt-get -y auto-remove && sudo apt-get -y clean'
 alias upgrade!='sudo apt-get dist-upgrade'
 alias install='sudo apt-get -y install'
 alias upgrade='sudo apt-get -y upgrade'
