@@ -17,4 +17,4 @@
     ff = false
 
 [push]
-	default = simple
+    default = simple
