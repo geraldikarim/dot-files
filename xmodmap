@@ -1,0 +1,8 @@
+# Alt_R to Backspace
+keycode  22 = BackSpace BackSpace BackSpace BackSpace BackSpace BackSpace
+keycode 108 = BackSpace NoSymbol BackSpace NoSymbol BackSpace
+
+# Caps_Lock to Return
+remove Lock = Caps_Lock
+keycode  36 = Return NoSymbol Return NoSymbol Return
+keycode  66 = Return NoSymbol Return NoSymbol Return
