@@ -10,12 +10,17 @@
 
 [core]
     editor = vim
-    fileMode = false
-    whitespace = trailing-space
     excludesfile = ~/.gitignore-global
+    fileMode = false
+    whitespace = blank-at-eol,tab-in-indent
 
 [merge]
     ff = false
 
 [push]
     default = simple
+    followTags = true
+
+[pull]
+    rebase = preserve
+
